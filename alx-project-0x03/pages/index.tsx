@@ -1,8 +1,8 @@
-import Layout from "@/components/layouts/Layout";
-
-const Home: React.FC = () => {
-return <Layout><></></Layout>;
-
-};
+const Home = () => {
+  return (
+   <div>
+    <h1> Welcome to Splash App </h1>
+   </div>)
+}
 
 export default Home;
